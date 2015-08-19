@@ -20,12 +20,14 @@ Installing Rails Environment & Useful Applications
 
 ## Command Line Software ##
 1. Install rvm ("Ruby Version Manager"):
-> `$ \curl -sSL https://get.rvm.io | bash -s stable`
-> `$ $SHELL`
+```$ \curl -sSL https://get.rvm.io | bash -s stable```
+```$ $SHELL```
 2. Install ruby 2.2:
-> `$ rvm autolibs read-only`
-> `$ rvm install 2.2`
-> `$ rvm use 2.2`
+```
+$ rvm autolibs read-only
+$ rvm install 2.2
+$ rvm use 2.2
+```
 3. Install Rails, haml, scss (scss is installed implicitly by installing rails):
 > `$ gem install rails haml-rails`
 4. Install Sinatra.  Rails uses something called "rack" as the base of its framework.  Sinatra uses rack, as well, but with fewer components.  Installing Sinatra will provide something simple so you can play with haml and scss.
