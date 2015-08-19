@@ -51,5 +51,7 @@ $ cd ~/Desktop/GettingReadyRuby
 $ mate ./
 ```
 3. Back in the terminal, run the following command:
-> `ruby ./sinatra.rb`
+```
+ruby ./sinatra.rb
+```
 4. You can now edit the `views/index.haml` page from within textmate and see the results at http://localhost:4567/.
