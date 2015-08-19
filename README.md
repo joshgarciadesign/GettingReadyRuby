@@ -5,7 +5,9 @@ Installing Rails Environment & Useful Applications
 
 1. Install Xcode
 2. Install Xcode command line tools by entering the following into the Terminal.app command line:
-```xcode-select --install```
+```
+xcode-select --install
+```
 
 3. Install TextMate text editor **2.0 beta**.  It is free software as of version 2.
 - http://macromates.com/download
